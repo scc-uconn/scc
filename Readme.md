@@ -1,4 +1,6 @@
 
+Computing in the Statistics Department at UConn.
+
 # Miscellany
 
 * Access university STFP-based web storage with
