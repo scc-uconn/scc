@@ -1,18 +1,70 @@
 
 Computing in the Statistics Department at UConn.
 
+# Cluster
+
+The subdirectory `cluster/` contains resources related to the
+Statistics Department's Beowulf compute cluster. The cluster is
+maintained by the Physics Department at UConn.
+
+## Links
+
+* [Cluster load summary](http://gryphn.phys.uconn.edu/cgi-bin/uconn_stat.cgi)
+* [Wiki](http://gryphn.phys.uconn.edu/statswiki/index.php/Main_Page)
+* [Department webpage](http://stat.uconn.edu/cluster/) about the cluster
+* [HTCondor](https://research.cs.wisc.edu/htcondor/) distributed
+  computing scheduling software used on the cluster
+
+## Quick start
+
+The subdirectory `cluster/example/` contains a fully-functional
+example compute job. `notes.pdf` contains notes and resources about
+general use of, and access to, the cluster.
+
 # Miscellany
 
-* To access UConn-hosted SFTP storage, first set the environment
-  variables `LFTP_USER`, `LFTP_PASSWORD` appropriately. Then, copy all
-  files in the local directory `/local/path/` to the remote directory
-  `/remote/path/` with `lftp`, e.g.,
+## Off-campus network access
+
+Some computing services at UConn are only available from on the UConn
+campus, including the Statistics cluster and University-hosted SFTP
+web storage.
+
+To access the University's network from off-site, University
+affiliates can:
+
+* Use the
+  [VPN](http://remoteaccess.uconn.edu/vpn-overview/connect-via-vpn-client-2/) to
+  log in with a NetID;
+* Use the University's [Skybox](http://skybox.uconn.edu/) system;
+
+Members of the Department of Statistics may also SSH into the research
+lab Linux workstations.
+
+## Linux workstations
+
+The research lab contains several Linux workstations that are
+available for use by members of the Department of Statistics. The
+workstations provide shell access to a Debian-based scientific
+computing environment, and are accessible via SSH from off-campus.
+
+Contact Professor Yan for access and policies.
+
+## Command-line access to UConn SFTP
+
+To access UConn-hosted SFTP storage, first set the environment
+variables `LFTP_USER`, `LFTP_PASSWORD` appropriately. Then, copy all
+files in the local directory `/local/path/` to the remote directory
+`/remote/path/` with `lftp`, e.g.,
 
 ```
 $ lftp -e "mirror -Rv /local/path /remote/path; quit;" sftp://host:22 -u $LFTP_USER,$LFTP_PASSWORD
 ```
 
-For UConn SFTP servers, host is something like `name.uconn.edu`. Note
-that some UConn services are exclusively available from the UConn
-network.
+For UConn SFTP servers, `host` is something like
+`name.uconn.edu`. Some UConn services are exclusively available from
+the UConn network. The
+University's
+ allows
+users to log onto the campus network. Members of the Department of
+Statistics can also
 
