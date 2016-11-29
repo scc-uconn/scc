@@ -9,7 +9,8 @@ maintained by the Physics Department at UConn.
 
 ## Links
 
-* [Cluster load summary](http://gryphn.phys.uconn.edu/cgi-bin/uconn_stat.cgi)
+* [Basic cluster load summary](http://gryphn.phys.uconn.edu/cgi-bin/uconn_stat.cgi)
+* [Comprehensive load summary](https://grendl.phys.uconn.edu/ganglia/)
 * [Wiki](http://gryphn.phys.uconn.edu/statswiki/index.php/Main_Page)
 * [Department webpage](http://stat.uconn.edu/cluster/) about the cluster
 * [HTCondor](https://research.cs.wisc.edu/htcondor/) distributed
