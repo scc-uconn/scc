@@ -27,13 +27,13 @@ The subdirectory `cluster/example/` contains a fully-functional
 example compute job. `notes.pdf` contains notes and resources about
 general use of, and access to, the cluster.
 
-# Miscellany
-
 ## Developer tools
 
 If you require access to a more recent version of `gcc` (e.g., for the
 package RcppArmadillo), it may be necessary to run `scl enable
 devtoolset-3 bash` prior to compiling.
+
+# Miscellany
 
 ## Off-campus network access
 
