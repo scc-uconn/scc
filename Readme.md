@@ -7,6 +7,11 @@ The subdirectory `cluster/` contains resources related to the
 Statistics Department's Beowulf compute cluster. The cluster is
 maintained by the Physics Department at UConn.
 
+Purchase of the cluster and related software was partially supported
+by NSF Scientific Computing Research Environments for the Mathematical
+Sciences (SCREMS) Program grant 0723557 to M.H. Chen, Z. Chi (PI),
+D. Dey and O. Harel.
+
 ## Links
 
 * [Basic cluster load summary](http://gryphn.phys.uconn.edu/cgi-bin/uconn_stat.cgi)
@@ -23,6 +28,12 @@ example compute job. `notes.pdf` contains notes and resources about
 general use of, and access to, the cluster.
 
 # Miscellany
+
+## Developer tools
+
+If you require access to a more recent version of `gcc` (e.g., for the
+package RcppArmadillo), it may be necessary to run `scl enable
+devtoolset-3 bash` prior to compiling.
 
 ## Off-campus network access
 
