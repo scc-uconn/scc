@@ -1,0 +1,95 @@
+
+\documentclass[hyperref={colorlinks,allcolors=blue}]{beamer}
+
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{changepage}
+
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  frame=single,
+  title=\lstname,
+  showstringspaces=false
+ }
+
+\title{Cluster Orientation}
+\author{Henry Linder \\ \footnotesize\texttt{m.henry.linder@uconn.edu}}
+\date{September 12, 2016}
+
+\begin{document}
+
+\begin{frame}
+
+  \titlepage
+
+\end{frame}
+
+\begin{frame}
+
+  \begin{itemize}
+
+  \item Documentation and examples are availabe on the cluster
+    \href{http://gryphn.phys.uconn.edu/statswiki/index.php/Main_Page}{wiki}.
+
+  \item Access the cluster with SSH at \texttt{stats.phys.uconn.edu}
+    \begin{itemize}
+    \item Windows: \href{http://www.putty.org/}{Putty}
+    \item OSX, Linux: \texttt{ssh} command in terminal \\
+      \texttt{\$ ssh hlinder@stats.phys.uconn.edu}
+    \end{itemize}
+
+  \item Copy files to / from the cluster with SCP (secure copy)
+    \begin{itemize}
+    \item Windows: \href{https://winscp.net/eng/index.php}{WinSCP}
+    \item OSX: \href{https://panic.com/transmit/}{Transmit}
+    \item OSX, Linux: \texttt{scp} command \\
+      \texttt{\$ scp file hlinder@stats.phys.uconn.edu:\textasciitilde/}
+    \end{itemize}
+
+  \item The cluster can only be accessed on campus. From off campus, do
+    one of the following:
+    \begin{itemize}
+    \item Use the UConn \href{http://remoteaccess.uconn.edu/}{VPN}
+    \item Use \href{http://skybox.uconn.edu/}{Skybox}
+    \item SSH into one of the research lab Linux computers, and then SSH
+      again into the cluster (ask Professor Yan for an account)
+    \end{itemize}
+
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+  \lstinputlisting[language=make]{Makefile}
+
+\end{frame}
+
+\begin{frame}
+
+  \begin{adjustwidth}{-1.5em}{-1.5em}
+  \lstinputlisting[breaklines=true,language=R,firstline=1,lastline=16]{demo.condor}
+  \end{adjustwidth}
+
+\end{frame}
+
+\begin{frame}
+
+  \lstinputlisting[breaklines=true,language=R,firstline=18]{demo.condor}
+
+\end{frame}
+
+\begin{frame}
+
+  \lstinputlisting[language=R]{demo.R}
+
+\end{frame}
+
+\begin{frame}
+
+  \lstinputlisting[language=R]{combine.R}
+
+\end{frame}
+
+\end{document}
+
