@@ -1,5 +1,14 @@
 
-Computing in the Statistics Department at UConn.
+Computing in the Department of Statistics at UConn.
+
+* [Cluster](#cluster)
+    * [Links](#links)
+    * [Quick start](#quick-start)
+    * [Developer tools](#developer-tools)
+* [Miscellany](#miscellany)
+    * [Off-campus network access](#off-campus-network-access)
+    * [Linux workstations](#linux-workstations)
+    * [Command-line access to UConn SFTP](#command-line-access-to-uconn-sftp)
 
 # Cluster
 
