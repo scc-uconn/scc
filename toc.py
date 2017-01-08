@@ -1,4 +1,6 @@
 
+## Prints a table of contents for this project
+
 from re import search
 
 with open('Readme.md') as f:

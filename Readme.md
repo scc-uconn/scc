@@ -10,6 +10,18 @@ Computing in the Department of Statistics at UConn.
     * [Linux workstations](#linux-workstations)
     * [Command-line access to UConn SFTP](#command-line-access-to-uconn-sftp)
 
+# Other resources
+
+* The Department [website](http://stat.uconn.edu) has additional
+  information about the cluster and computing resources in the
+  department.
+* [Wenjie Wang](https://github.com/wenjie2wang) has made some
+  [examples for the cluster](https://github.com/wenjie2wang/cluster-examples).
+* [Henry Linder](https://github.com/mhlinder) has made some
+  useful [default documents](https://github.com/mhlinder/defaults),
+  including Rmarkdown templates and boilerplate conference code.
+
+
 # Cluster
 
 The subdirectory `cluster/` contains resources related to the
