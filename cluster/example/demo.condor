@@ -1,3 +1,4 @@
+
 universe = vanilla
 requirements = ParallelSchedulingGroup == "stats group"
 
@@ -19,8 +20,8 @@ output = out/demo.out.$(process)
 should_transfer_files   = YES
 when_to_transfer_output = ON_EXIT
 
-# By default, all new files created for a job are copied back to
-# the main job directory.
+# By default, all new files created during the execution of a job are
+# copied back to the main job directory.
 #
 # But, it's also possible to explicitly specify which files to copy
 # back:
@@ -28,3 +29,4 @@ when_to_transfer_output = ON_EXIT
 
 # Number of jobs to submit
 queue 10
+

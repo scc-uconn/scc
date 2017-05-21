@@ -19,7 +19,7 @@ Computing in the Department of Statistics at UConn.
   [examples for the cluster](https://github.com/wenjie2wang/cluster-examples).
 * [Henry Linder](https://github.com/mhlinder) has made some
   useful [default documents](https://github.com/mhlinder/defaults),
-  including Rmarkdown templates and boilerplate conference code.
+  including Rmarkdown templates and a boilerplate conference website.
 
 
 # Cluster
